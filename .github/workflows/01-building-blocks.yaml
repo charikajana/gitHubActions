@@ -1,17 +1,18 @@
-name: 01 - BuildingBlocks
+name: 01-BuildingBlocks
 on:
-  push: 
+  push:
     branches:
       - main
 jobs:
-  echo-hello:
+  echo-helloworld:
+    name: echo-hellowwwww
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
-        run: echo "hello world"
+      - name: Checkout
+        run : echo "hello world"
   echo-goodBye:
+    name: echo-goodbbb
     runs-on: ubuntu-latest
     steps:
-      - name: SayGoodBye
-        run: |
-          # Your commands here
+      - name: Checkout
+        run : echo "goodbye world"
